@@ -325,11 +325,18 @@
 	display: inline-block;
 	color: #fff;
 	list-style: none;
-	font-size: 48px;
+	font-size: 32px;
 }
 
+.social img{
+	/* height: 32px; */
+	margin: 3px;
+	width: 32px;
+}
+
+/*antes 50b1ee*/
 #facebook-icon{
-	color: #50b1ee;
+	color: #fff; 
 }
 
 .facebook-shadow{
@@ -347,7 +354,7 @@
 }
 
 #instagram-icon{
-	color: #e1306c;
+	color: #fff;
 }
 
 .instagram-shadow{
@@ -363,7 +370,7 @@
 	color: #fff;
 }
 
-#twitter-icon{
+/* #twitter-icon{
 	color: #1da1f2;
 }
 
@@ -378,7 +385,26 @@
 
 .twitter-shadow:hover #twitter-icon{
 	color: #fff;
+} */
+
+/* Amazon */
+
+/* #amazon-icon{
+	color: #FF9900;
 }
+
+.amazon-shadow{
+	transition: 1s;
+}
+
+.amazon-shadow:hover{
+	background: #FF9900;
+	box-shadow: 3px 6px 75px 3px  #FF9900;
+}
+
+.amazon-shadow:hover #amazon-icon{
+	color: #fff;
+} */
 
 /* .rompiendo {
     position: absolute;
